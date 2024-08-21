@@ -717,6 +717,7 @@ h3.profession span{
 }
 .home-page .infodev{
     overflow: scroll;
+    white-space: nowrap;
 }
 .btn{
     font-size: 12px;
@@ -770,6 +771,29 @@ h3.profession span{
         position: absolute;
         top: 100px;
     }
+    .home-page .infodev{
+        overflow: scroll;
+        white-space: nowrap;
+    }
+    .btn{
+        font-size: 12px;
+        font-weight: 400;
+        background: var(--main-color);
+        padding: 8px 18px;
+        color: var(--bg-black-900 );
+        border: none;
+        border-radius: 50px;
+        display: inline-block;
+        white-space: nowrap;
+        transition: all 0.3s ease;
+        margin-top: 0;
+    }
+    .infodev p{
+        margin-bottom: 20px;
+    }
+    .hidden{
+        display: block;
+    }
 
 }
 @media(max-width:700px){
@@ -783,6 +807,29 @@ h3.profession span{
     {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    .home-page .infodev{
+        overflow: scroll;
+        white-space: nowrap;
+    }
+    .btn{
+        font-size: 12px;
+        font-weight: 400;
+        background: var(--main-color);
+        padding: 8px 18px;
+        color: var(--bg-black-900 );
+        border: none;
+        border-radius: 50px;
+        display: inline-block;
+        white-space: nowrap;
+        transition: all 0.3s ease;
+        margin-top: 0;
+    }
+    .infodev p{
+        margin-bottom: 20px;
+    }
+    .hidden{
+        display: block;
     }
 }
 
