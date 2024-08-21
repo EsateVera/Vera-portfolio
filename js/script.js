@@ -85,3 +85,4 @@ const navTogglebtn = document.querySelector(".nav-toggle"),
             allSection[i].classList.toggle("open");
         }
     }
+    

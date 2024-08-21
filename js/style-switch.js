@@ -1,8 +1,12 @@
 /*-----------style switch toggle-----------*/
-const styleSwitchToggle = document.querySelector(".style-switch-toggle");
+/*const styleSwitchToggle = document.querySelector(".style-switch-toggle");
 styleSwitchToggle.addEventListener("click", () =>{
     document.querySelector(".style-switch").classList.toggle("open");
 
+})*/
+const styleDaynight = document.querySelector(".day-night");
+styleDaynight.addEventListener("click", () =>{
+    document.querySelector(".day-night").classList.toggle("click");
 })
 /* hide style switch on scrol */
 window.addEventListener("scroll", () =>{
