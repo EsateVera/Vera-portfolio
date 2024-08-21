@@ -731,9 +731,7 @@ h3.profession span{
 .infodev p{
     margin-bottom: 20px;
 }
-.hidden{
-    display: block;
-}
+
 }
 @media(max-width:900px){
     .contact.contact-info,
@@ -767,27 +765,6 @@ h3.profession span{
         position: absolute;
         top: -20px;
     }
-    
-    
-    .btn{
-        font-size: 12px;
-        font-weight: 400;
-        background: var(--main-color);
-        padding: 8px 18px;
-        color: var(--bg-black-900 );
-        border: none;
-        border-radius: 50px;
-        display: inline-block;
-        white-space: nowrap;
-        transition: all 0.3s ease;
-        margin-top: 0;
-    }
-    .infodev p{
-        margin-bottom: 20px;
-    }
-    .hidden{
-        display: block;
-    }
 
 }
 @media(max-width:700px){
@@ -801,25 +778,6 @@ h3.profession span{
     {
         flex: 0 0 100%;
         max-width: 100%;
-    }
-    .btn{
-        font-size: 12px;
-        font-weight: 400;
-        background: var(--main-color);
-        padding: 8px 18px;
-        color: var(--bg-black-900 );
-        border: none;
-        border-radius: 50px;
-        display: inline-block;
-        white-space: nowrap;
-        transition: all 0.3s ease;
-        margin-top: 0;
-    }
-    .infodev p{
-        margin-bottom: 20px;
-    }
-    .hidden{
-        display: block;
     }
 }
 
