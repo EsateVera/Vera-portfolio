@@ -715,10 +715,6 @@ h3.profession span{
     max-width: 100%;
 
 }
-.home-page .infodev{
-    overflow: scroll;
-    white-space: wrap;
-}
 .btn{
     font-size: 12px;
     font-weight: 400;
@@ -771,10 +767,8 @@ h3.profession span{
         position: absolute;
         top: -20px;
     }
-    .home-page .infodev{
-        overflow: scroll;
-        white-space: wrap;
-    }
+    
+    
     .btn{
         font-size: 12px;
         font-weight: 400;
@@ -807,10 +801,6 @@ h3.profession span{
     {
         flex: 0 0 100%;
         max-width: 100%;
-    }
-    .home-page .infodev{
-        overflow: scroll;
-        white-space: wrap;
     }
     .btn{
         font-size: 12px;
