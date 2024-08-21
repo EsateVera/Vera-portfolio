@@ -715,6 +715,9 @@ h3.profession span{
     max-width: 100%;
 
 }
+.home-page .infodev{
+    overflow: scroll;
+}
 .btn{
     font-size: 12px;
     font-weight: 400;
