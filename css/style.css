@@ -717,7 +717,7 @@ h3.profession span{
 }
 .home-page .infodev{
     overflow: scroll;
-    white-space: nowrap;
+    white-space: wrap;
 }
 .btn{
     font-size: 12px;
@@ -765,15 +765,15 @@ h3.profession span{
         border-radius: 50%;
         border: 2px solid var(--main-color);
         position: relative;
-        top: -100px;   
+        top: -250px;   
     }
     .infodev{
         position: absolute;
-        top: 100px;
+        top: -20px;
     }
     .home-page .infodev{
         overflow: scroll;
-        white-space: nowrap;
+        white-space: wrap;
     }
     .btn{
         font-size: 12px;
@@ -810,7 +810,7 @@ h3.profession span{
     }
     .home-page .infodev{
         overflow: scroll;
-        white-space: nowrap;
+        white-space: wrap;
     }
     .btn{
         font-size: 12px;
