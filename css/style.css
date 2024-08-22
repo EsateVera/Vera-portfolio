@@ -627,9 +627,14 @@ h3.profession span{
 .contact .contact-info .icons{
    display: inline-block; 
 }
-.contact .contact-info .icons .fa{
+.contact .contact-info .icons .fa-regular{
     font-size: 30px;
-    color: var(--main-color);
+    color: rgb(238, 33, 33);
+}
+.contact .contact-info .icons .fa-brands{
+    font-size: 30px;
+    color: rgb(3, 172, 3);
+    font-weight: 800;
 }
 .contact .contact-info h4{
     font-size: 20px;
@@ -648,7 +653,27 @@ h3.profession span{
     flex: 0 0 100%;
     max-width: 100%;
 }
-.contact .contact-form .column{
+.footer{
+    position: absolute;
+    right: 100px;
+    bottom: 40px;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+}
+.footer li{
+    list-style: none;
+}
+.footer li a{
+    text-decoration: none;
+}
+.footer li a .fa-brands{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: rgb(16, 73, 232);
+}
+/*.contact .contact-form .column{
     flex: 0 0 50%;
     max-width: 50%;
 }
@@ -680,7 +705,7 @@ h3.profession span{
 .contact .contact-form .btn{
     height: 50px;
     padding: 0 50px;
-}
+}*/
 @media(max-width:1199px){
     .sidebar
     {
@@ -731,7 +756,15 @@ h3.profession span{
 .infodev p{
     margin-bottom: 20px;
 }
-
+h3.intro{
+    font-size: 28px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+h3.profession{
+    font-size: 23px;
+    margin-top: 0;
+}
 }
 @media(max-width:900px){
     .contact.contact-info,
@@ -751,7 +784,6 @@ h3.profession span{
         display: none;
     }
 
-    
     .home-page .image img{
         display: block;
         width: 200px;
@@ -759,7 +791,7 @@ h3.profession span{
         border-radius: 50%;
         border: 2px solid var(--main-color);
         position: relative;
-        top: -250px;   
+        top: -200px;   
     }
     .infodev{
         position: absolute;
